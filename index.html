@@ -4,12 +4,15 @@
 <title> My Projects </title>
 <center><h1> Projects by William Aufmann <h1></center>
   <body>
-    <br>
-<a href="Event Folder/Event pg 1.html">Event Page</a>
-<a href="The Critic Food Project WA/Food website.html">The diner assignment</a>
-<a href="Bird Spies Project, WA, SF/BirdProject.html">Conspiracy Project</a>
-<a href="Van Halen Project William Aufmann/Van Halen Home Page Noun.html">Van Halen Project</a>
-  
+     <br>
+    <ul class="nav-bar">
+  <li class="nav-bar-item"><a href="Event Folder/Event pg 1.html">Event Page</a></li>
+  <li class="nav-bar-item"><a href="The Critic Food Project WA/Food website.html">The diner assignment</a></li>
+  <li class="nav-bar-item"><a href="Bird Spies Project, WA, SF/BirdProject.html">Conspiracy Project</a></li>
+  <li class="nav-bar-item"><a href="Van Halen Project William Aufmann/Van Halen Home Page Noun.html">Van Halen Project</a></li>
+</ul>
+   
+
   <p>The Projects I have Made this Past Year.</p>
   </body>
   </html>
@@ -21,10 +24,23 @@ h1{
 body{
   background-color:#f76c5e;
     }
-    
-    
-    
-    
+      .nav-bar {
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-bar-item {
+  display: inline;
+  float: left;
+  font-size: 20px;
+}
 </style>    
   
 
